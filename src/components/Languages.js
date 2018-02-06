@@ -2,7 +2,44 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Languages extends Component {
+
+  constructor(){
+    super()
+
+    this.state = {
+      expand: false
+    }
+  }
+
+  handleExpand = (event) => {
+    event.preventDefault()
+    this.setState(prevState => {
+      return {expand: !prevState.expand}
+    })
+  }
+
   render() {
+    let info;
+
+    if (this.state.expand === true){
+      info = (
+        <div>
+          <div style={{display:'inline-block', width:'30%'}}>
+            <p>Rails info</p>
+          </div>
+          <div style={{display:'inline-block', width:'30%'}}>
+            <p>JS info</p>
+          </div>
+          <div style={{display:'inline-block', width:'30%'}}>
+            <p>HTML & CSS info</p>
+          </div><br/>
+          <i className="fas fa-chevron-up" onClick={this.handleExpand}></i>
+        </div>
+      )
+    } else {
+      info = <i className="fas fa-chevron-down" onClick={this.handleExpand}></i>
+    }
+
     return (
       <div style={{backgroundColor: '#f5e3e7'}}>
         <div id='Rails' style={{display:'inline-block', width:'30%'}}>
@@ -19,8 +56,8 @@ class Languages extends Component {
         <h4>styling</h4>
         <i className="fas fa-code"></i><br/>
         <h4>HTML with Custom CSS</h4>
-        </div>
-        <i className="fas fa-chevron-down"></i>
+        </div><br/>
+        {info}
       </div>
     );
   }
