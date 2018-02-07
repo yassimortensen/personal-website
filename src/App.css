@@ -106,6 +106,20 @@ li {
   padding-top: 1%;
 }
 
+.footer {
+  background-color: #B5DBB4;
+  font-family: 'Roboto Slab';
+  padding: 2%;
+}
+
+.work-together{
+  font-size:2.5vw;
+}
+
+.accepting {
+  font-size: 1.2em;
+}
+
 @media only screen and (max-width: 375px) {
   .icon {
     color: black;
@@ -173,6 +187,17 @@ li {
   }
   .github{
     font-size: 6vw;
+  }
+  .work-together{
+    font-size:5vw;
+  }
+  .accepting {
+    font-size: 3.5vw;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .tell-me{
+    padding-bottom: 0;
   }
 }
 
