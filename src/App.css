@@ -83,6 +83,29 @@ li {
   font-style: italic;
 }
 
+.project-component-title{
+  font-size: 3vw;
+  border-bottom: 0.4vw dotted #C4C4C4;
+}
+
+.project-title{
+  font-size:2vw;
+}
+
+.youtube{
+  display:inline-block;
+  width: 10%;
+  color:red;
+  padding-top: 1%;
+}
+
+.github {
+  display:inline-block;
+  width: 10%;
+  color:black;
+  padding-top: 1%;
+}
+
 @media only screen and (max-width: 375px) {
   .icon {
     color: black;
@@ -102,12 +125,12 @@ li {
     position: relative;
   }
   .img-circle {
-      border-radius: 50%;
-      border: 0.25vw solid #fff;
-      box-shadow: 0 0 0 0.25vw black;
-      width: 20vw;
-      margin-top: -5vw;
-      position: relative;
+    border-radius: 50%;
+    border: 0.25vw solid #fff;
+    box-shadow: 0 0 0 0.25vw black;
+    width: 20vw;
+    margin-top: -5vw;
+    position: relative;
   }
   .hello {
     font-size: 2em;
@@ -127,6 +150,29 @@ li {
   .javascript-icons{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+  }
+  .project-component-title{
+    font-size: 4.5vw;
+    border-bottom: none;
+  }
+  .project-title{
+    font-size:3.5vw;
+  }
+  .project-info {
+    font-size: 3vw;
+    padding: 1%;
+  }
+  .project-tech {
+    font-size:3vw;
+  }
+  .project {
+    border-top: 0.5vw dashed #C4C4C4;
+  }
+  .youtube{
+    font-size: 6vw;
+  }
+  .github{
+    font-size: 6vw;
   }
 }
 
