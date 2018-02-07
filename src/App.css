@@ -106,7 +106,7 @@ li {
   padding-top: 1%;
 }
 
-.footer {
+.closing {
   background-color: #B5DBB4;
   font-family: 'Roboto Slab';
   padding: 2%;
@@ -117,7 +117,17 @@ li {
 }
 
 .accepting {
-  font-size: 1.2em;
+  font-size: 1.5vw;
+}
+
+.footer {
+  font-family: 'Roboto Slab';
+  padding: 1%;
+}
+
+.masthead {
+  padding: 1%;
+  font-size: 1.2vw;
 }
 
 @media only screen and (max-width: 375px) {
@@ -198,6 +208,9 @@ li {
   }
   .tell-me{
     padding-bottom: 0;
+  }
+  .masthead {
+    font-size: 3vw;
   }
 }
 
