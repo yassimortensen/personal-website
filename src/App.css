@@ -55,6 +55,34 @@
   font-size: 1.5em;
 }
 
+.icon:hover{
+  color: grey;
+}
+
+.language {
+  font-family: 'Open Sans';
+  /*font-size: 1.5vw;*/
+}
+
+.language-text {
+  font-size: 1.15em;
+  padding: 1vw;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.project-info {
+  font-size: 1.5vw;
+  padding: 1%;
+}
+
+.project-tech {
+  font-size:1.25vw;
+  font-style: italic;
+}
+
 @media only screen and (max-width: 375px) {
   .icon {
     color: black;
@@ -87,29 +115,19 @@
   .intro{
     font-size: 1em;
   }
-}
-
-.icon:hover{
-  color: grey;
-}
-
-.language {
-  font-family: 'Open Sans';
-  font-size: 1.5vw;
-}
-
-.padding {
-  padding: 1vw;
-}
-
-.project-info {
-  font-size: 1.5vw;
-  padding: 1%;
-}
-
-.project-tech {
-  font-size:1.25vw;
-  font-style: italic;
+  .language-text {
+    font-size: 0.75em;
+  }
+  li {
+    font-size: 0.75em;
+  }
+  .language-icon {
+    font-size: 1.5em;
+  }
+  .javascript-icons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
 }
 
 #grow {
