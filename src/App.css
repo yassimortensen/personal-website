@@ -130,20 +130,9 @@ li {
   font-size: 1.2vw;
 }
 
-.blahblah {
-  height: 32vh;
-  -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
-  transition: height 2s;
-}
-
-.section {
-    overflow:hidden;
-    transition:height 0.3s ease-out;
-    height:auto;
-  }
-
-.blahblah:hover {
-  height: 600px;
+#gameOfDeThrones{
+  transform: scale(1,1.1);
+  margin: 1.5%;
 }
 
 @media only screen and (max-width: 375px) {
@@ -209,10 +198,12 @@ li {
     border-top: 0.5vw dashed #C4C4C4;
   }
   .youtube{
-    font-size: 6vw;
+    font-size: 5.5vw;
+    padding-top: 2%;
   }
   .github{
-    font-size: 6vw;
+    font-size: 5vw;
+    padding-top: 2%;
   }
   .work-together{
     font-size:5vw;

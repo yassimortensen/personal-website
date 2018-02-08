@@ -8,8 +8,8 @@ class Footer extends Component {
         <a className="icon" href="https://www.linkedin.com/in/yassimortensen/">
           <i className="fab fa-linkedin fa-2x" style={{display:'inline-block', width:'10%'}}></i>
         </a>
-        <a className="icon" href="mailto:yassimortensen@gmail.com">
-          <i className="far fa-envelope fa-2x" style={{display:'inline-block', width:'10%'}}></i>
+        <a className="icon" href="https://docs.google.com/presentation/d/1PqcB0LwDTbAtC4G-sAPRG8EJq7Zag_SToaOVDNSMugQ/edit?usp=sharing">
+          <i className="far fa-file-alt fa-2x" style={{display:'inline-block', width:'10%'}}></i>
         </a>
         <a className="icon" href="https://github.com/yassimortensen">
           <i className="fab fa-github-square fa-2x" style={{display:'inline-block', width:'10%'}}></i>
