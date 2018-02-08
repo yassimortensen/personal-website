@@ -130,6 +130,22 @@ li {
   font-size: 1.2vw;
 }
 
+.blahblah {
+  height: 32vh;
+  -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  transition: height 2s;
+}
+
+.section {
+    overflow:hidden;
+    transition:height 0.3s ease-out;
+    height:auto;
+  }
+
+.blahblah:hover {
+  height: 600px;
+}
+
 @media only screen and (max-width: 375px) {
   .icon {
     color: black;
@@ -214,17 +230,15 @@ li {
   }
 }
 
-#grow {
-  /*overflow: hidden;
-  transition: height 500ms;*/
-  /*max-height: 300px;
-  -webkit-transition: max-height 1s;
-  -moz-transition: max-height 1s;
-  -ms-transition: max-height 1s;
-  -o-transition: max-height 1s;
-  transition: max-height 1s;
-  display: block;*/
-}
+/*.grow {
+  transition: all 5s ease-in-out;
+}*/
+
+/*.grow {
+  overflow:hidden;
+  transition:height 3s ease-out;
+  height:auto;
+}*/
 
 /*.App {
   text-align: center;

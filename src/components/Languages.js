@@ -23,7 +23,7 @@ class Languages extends Component {
 
     if (this.state.expand === true){
       info = (
-        <div id="grow">
+        <div>
           <div className="language-grid">
               <ul>
                 <li>Ruby</li>
